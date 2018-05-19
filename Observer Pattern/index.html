@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Observer Pattern</title>
+</head>
+<body>
+  <h1>Observer Pattern</h1>
+  <p>The Observer pattern offers a subscription model in which objects subscribe to an event and get notified when the event occurs. This pattern is the cornerstone of event driven programming, including JavaScript. The Observer pattern facilitates good object-oriented design and promotes loose coupling.</p>
+  <p>When building web apps you end up writing many event handlers. Event handlers are functions that will be notified when a certain event fires. These notifications optionally receive an event argument with details about the event (for example the x and y position of the mouse at a click event).</p>
+  <p>The event and event-handler paradigm in JavaScript is the manifestation of the Observer design pattern.</p>
+  <button class="sub-ms">Subscribe to Milliseconds</button>
+  <button class="unsub-ms">Unsubscribe from Milliseconds</button>
+  <button class="sub-s">Subscribe to Seconds</button>
+  <button class="unsub-s">Unsubscribe from Seconds</button>
+  <br><br>
+  <button class="fire">Fire</button>
+
+  <script src="appES6.js"></script>
+</body>
+</html>
